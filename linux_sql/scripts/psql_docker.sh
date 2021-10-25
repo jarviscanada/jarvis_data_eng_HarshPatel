@@ -10,7 +10,7 @@ if [[ $1 == "start" ]] | [[ $1 == "stop" ]] | [[ $1 == "create" ]]; then
     if [[ "$exists" == 2 ]]; then
       docker start "$2"
     else
-      echo sorry, cannot start the specified container as it is not created
+      echo Cannot able to start the specified container as it is not created
     fi
     exit $?
   ;;
@@ -19,7 +19,7 @@ if [[ $1 == "start" ]] | [[ $1 == "stop" ]] | [[ $1 == "create" ]]; then
     if [[ "$exists" == 2 ]]; then
       docker stop "$2"
     else
-      echo sorry, cannot stop the container as it is not created
+      echo Cannot able to stop the container as it is not created
     fi
     exit $?
   ;;
@@ -32,7 +32,7 @@ if [[ $1 == "start" ]] | [[ $1 == "stop" ]] | [[ $1 == "create" ]]; then
     else
       if [ "$2" != '' ] && [ "$3" != '' ]; then #creates psql container with the given username and password
         docker volume create pgdata
-        docker run --name="$2" -e POSTGRES_PASSWORD="$3" -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgrese
+        docker run --name="$2" -e POSTGRES_PASSWORD="$3" -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
       else #gives error message if username and password is missing
         echo please provide username and password
       fi
