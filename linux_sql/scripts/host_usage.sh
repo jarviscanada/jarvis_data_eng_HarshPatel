@@ -4,10 +4,10 @@ psql_host=$1
 psql_port=$2
 db_name=$3
 psql_user=$4
-psql_password=$5
+#psql_password=$5
 
 #Error message for missing arguments
-if [ "$#" -ne 6 ]; then
+if [ "$#" -ne 5 ]; then
     echo "Illegal number of parameters. Please provide psql host, port number, database name, user and password"
     exit 1
 fi
@@ -16,7 +16,8 @@ memory_free=$(vmstat --unit M |awk '{for(i=NF;i>0;i--)if($i=="free"){x=i;break}}
 cpu_idle=$(vmstat --unit M |awk '{for(i=NF;i>0;i--)if($i=="id"){x=i;break}}END{print $x}' | xargs)
 cpu_kernel=$(vmstat --unit M |awk '{for(i=NF;i>0;i--)if($i=="sy"){x=i;break}}END{print $x}' | xargs)
 disk_io=$(vmstat -d |awk '{for(i=NF;i>0;i--)if($i=="cur"){x=i+1;break}}END{print $x}' | xargs)
-disk_available=$(df -BM / |awk '{for(i=NF;i>0;i--)if($i=="Available"){x=i;break}}END{print $x}' | xargs)
+disk_available1=$(df -BM / |awk '{for(i=NF;i>0;i--)if($i=="Available"){x=i;break}}END{print $x}' | xargs)
+disk_available=${disk_available1//[^[:digit:].-]/}
 timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
 #Query to insert data into host_info table

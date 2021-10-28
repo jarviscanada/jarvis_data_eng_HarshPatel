@@ -16,10 +16,10 @@ CREATE TABLE iF NOT EXISTS public.host_info
 );
 
 --Creates host_usage table only if it does not exist to store resource usage data
-CREATE TABLE if NOT EXISTS PUBLIC.host_usage
+CREATE TABLE if NOT EXISTS public.host_usage
 (
     "timestamp" TIMESTAMP NOT NULL,
-    host_id SERIAL NOT NULL REFERENCES host_info(id),
+    --host_id SERIAL NOT NULL REFERENCES host_info(id),
     memory_free INT NOT NULL,
     cpu_idle INT NOT NULL,
     cpu_kernel INT NOT NULL,
