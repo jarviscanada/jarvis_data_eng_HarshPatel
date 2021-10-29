@@ -1,7 +1,7 @@
 #!/bin/bash
 #Start docker
 sudo systemctl status docker || systemctl start docker
-#check container status. If container exists then $exit==2
+#check container status. If container exists then $exists==2
 exists=$( docker container ls -a -f name="$2" | wc -l )
 if [[ $1 == "start" ]] | [[ $1 == "stop" ]] | [[ $1 == "create" ]]; then
   case $1 in
