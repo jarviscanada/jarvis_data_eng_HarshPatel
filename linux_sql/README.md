@@ -90,3 +90,4 @@ disk_available|`INT`|Amount of available disk space in MB
 1. Create an automated script to connect to the psql instance 
 2. Handle the hardware update and insert the new hardwware specifications into host_info 
 3. Find a way to use windows function to group hosts by cpu number without use of aggregate functions
+=======
