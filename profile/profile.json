@@ -1,0 +1,107 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Master in Electrical \u0026 Computer Engineering",
+      "department": "Electrical and Computer Engineering",
+      "duration": "Aug 2019 - May 2021",
+      "school_name": "Concordia University"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Engineering",
+      "department": "Electronics \u0026 Communication",
+      "duration": "Sep 2015 - May 2019",
+      "school_name": "Gujarat Technological University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git",
+  "highlighted_projects": [
+    {
+      "description": "MTU-Space is a python-based website build using Django framework. Website that manages the student system. The admin user will be able to add student database to the website. Users must have MTU_ID and Password to access the service and edit or update the database.",
+      "git_url": "https://github.com/harshpatel77/MTUSpace.git",
+      "name": "School Management System (MTU-Space)"
+    },
+    {
+      "description": " Book World is a java-based website which allow the user to search and purchase books based on their category of choice. Website that manages the bookstore, update the database based on purchase. ",
+      "git_url": null,
+      "name": "Book World (E-Bookstore)"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a Cluster Monitoring Agent on a remote CentOS machine. Executed a bash script to collect the hardware specifications of each node in a cluster and monitor resource usages every minute with the help of Crontab. The data is collected and stored in a PostgreSQL server that runs inside a docker container.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Monitor"
+    },
+    {
+      "description": "",
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_analytics",
+      "name": "Python Data Analytics"
+    }
+  ],
+  "name": "Harsh Patel",
+  "others": [
+    {
+      "bullets": [
+        "Fortinet Network Security Expert Level 1: Certified Associate",
+        "Fortinet Network Security Expert Level 2: Certified Associate",
+        "AWS Concept (Udemy)",
+        "Software Engineering Virtual Experience (JPMorgan Chase \u0026 Co.)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Active member of Institute of Electrical and Electronics Engineering (IEEE) society in GCET, Anand",
+        "Active member of Indian Society for Technical Education (ISTE) in GCET, Anand",
+        "Basketball Player"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Developed, analyzed, and modified programming systems, including encoding, unit testing, and debugging. Worked with a diverse array of large data sets and large-scale data platforms. Followed agile methodologies and git-flow to develop java applications that run in Docker containers. Contributed to code-review sessions and ensured that code quality aligns with business and project requirements.",
+      "duration": "Oct 2021 - Present",
+      "title": "Data Engineer"
+    },
+    {
+      "company": "E-Vector Networking Inc",
+      "description": " - Involved in the weekly status report update with the manager and in the weekly Bug's status meetings along with QA Team and development team across the border. - Perform system, unit, acceptance, regression, load and functional/performance testing using automated testing. - Created automation test scripts using selenium web-driver and JavaScript. - Used Selenium web-driver to run test scripts on different platforms and against different browsers in parallel. - Validate, verify, communicate and resolve software issues through careful, thoroughly documented testing",
+      "duration": "Jun 2020 - Nov 2020",
+      "title": "Software Quality Assurance Engineer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "C/C++",
+      "HTML/CSS",
+      "Docker",
+      "PSQL",
+      "Google Cloud Platform"
+    ],
+    "familiar": [
+      "Hadoop",
+      "Maven",
+      "Jupyter Notebook",
+      "IntelliJ",
+      "Shopify"
+    ],
+    "proficient": [
+      "Java",
+      "Python",
+      "RDBMS/SQL",
+      "Linux/Bash scripts",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "A passionate learner, detail-oriented, responsible, and committed engineer graduated with a Masters in Electrical \u0026 Computer Engineering degree from Concordia University. Having experience and understanding of agile scrum methodology, willing to work beyond the comfort zone to achieve milestones. In addition, with the knowledge of RDBMS, SQL, Data modeling, and Java, developed various applications following Software Development Life Cycle (SDLC) and enhanced analytical, strategic planning, and communication skills as a Data Engineer at Jarvis. With a keen interest to transform business needs into requirements, I aim to apply the skills in a dynamic business environment to find innovative solutions for complex problems."
+}
