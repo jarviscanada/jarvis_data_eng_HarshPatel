@@ -1,6 +1,7 @@
 package ca.jrvs.apps.grep;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
@@ -18,7 +19,7 @@ public interface JavaGrep {
    * @return
    */
 
-  List<File> listfile(String rootDir);
+  List<File> listFiles(String rootDir) throws FileNotFoundException, IOException;
 
   /**
    * Read a file and return all the lines
@@ -26,10 +27,10 @@ public interface JavaGrep {
    * Explain FileReader, BufferReader, and  character Encoding
    *
    * @param inputFile file to be read
-   * @return lines
    * @throws IllegalArgumentException if a given input file is not a file
+   * @return
    */
-  List<String> readLines(File inputFile);
+  List<String> readLines(File inputFile) throws IOException;
 
   /**
    * check if a line contains the regex pattern (passed by user)
@@ -58,6 +59,8 @@ public interface JavaGrep {
   void setRegex(String regex);
 
   String grtOutFile();
+
+  String getOutFile();
 
   void setOutFile(String outFile);
 }
