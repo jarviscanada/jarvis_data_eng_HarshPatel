@@ -1,0 +1,5 @@
+   * @throws IllegalArgumentException if a given input file is not a file
+  public List<String> readLines(File inputFile) throws IllegalArgumentException {
+      throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
+      throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
+  public List<String> readLines(File inputFile) throws IllegalArgumentException {
