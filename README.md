@@ -8,7 +8,7 @@ A passionate learner, detail-oriented, responsible, and committed engineer gradu
 
 **Competent:** C/C++, HTML/CSS, Docker, PSQL, Google Cloud Platform
 
-**Familiar:** Hadoop, Maven, Jupyter Notebook, IntelliJ, Shopify
+**Familiar:** Hadoop, Maven, Jupyter Notebook, IntelliJ
 
 ## Jarvis Projects
 
@@ -32,7 +32,12 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HarshPatel
 
 **Data Engineer, Jarvis (Oct 2021 - Present)**: Developed, analyzed, and modified programming systems, including encoding, unit testing, and debugging. Worked with a diverse array of large data sets and large-scale data platforms. Followed agile methodologies and git-flow to develop java applications that run in Docker containers. Contributed to code-review sessions and ensured that code quality aligns with business and project requirements.
 
-**Software Quality Assurance Engineer, E-Vector Networking Inc (Jun 2020 - Nov 2020)**:  - Involved in the weekly status report update with the manager and in the weekly Bug's status meetings along with QA Team and development team across the border. - Perform system, unit, acceptance, regression, load and functional/performance testing using automated testing. - Created automation test scripts using selenium web-driver and JavaScript. - Used Selenium web-driver to run test scripts on different platforms and against different browsers in parallel. - Validate, verify, communicate and resolve software issues through careful, thoroughly documented testing
+**Software Quality Assurance Engineer, E-Vector Networking Inc (Jun 2020 - Nov 2020)**:  
+- Involved in the weekly status report update with the manager and in the weekly Bug's status meetings along with QA Team and development team across the border. 
+- Perform system, unit, acceptance, regression, load and functional/performance testing using automated testing. 
+- Created automation test scripts using selenium web-driver and JavaScript.
+- Used Selenium web-driver to run test scripts on different platforms and against different browsers in parallel.
+- Validate, verify, communicate and resolve software issues through careful, thoroughly documented testing
 
 
 ## Education
