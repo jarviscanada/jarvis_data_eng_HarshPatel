@@ -1,7 +1,5 @@
 package ca.jrvs.apps.grep;
 
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -12,6 +10,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ListIterator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class JavaGrepImp implements JavaGrep {
 
@@ -34,18 +34,18 @@ public class JavaGrepImp implements JavaGrep {
   @Override
   public void process() throws IOException {
     List<String> matchedLines = new ArrayList<>();
-    List<File> files = this.listFiles(this.rootPath);
+    List<File> files = listFiles(getRootPath());
 
     for(File file: files){
-      List<String> lines = this.readLines(file);
+      List<String> lines = readlines(file);
 
       for(String line: lines){
-        if(this.containsPattern(line)){
+        if(containsPattern(line)){
           matchedLines.add(line);
         }
       }
     }
-    this.writeToFile(matchedLines);
+    writeToFile(matchedLines);
   }
 
   @Override
@@ -75,7 +75,7 @@ public class JavaGrepImp implements JavaGrep {
   }
 
   @Override
-  public List<String> readLines(File inputFile) throws IllegalArgumentException {
+  public List<String> readlines(File inputFile) throws IllegalArgumentException {
     List<String> fileLines = new ArrayList<>();
     try {
       BufferedReader reader = new BufferedReader(new FileReader(inputFile));
@@ -86,22 +86,19 @@ public class JavaGrepImp implements JavaGrep {
       }
       reader.close();
     } catch (Exception e) {
-      logger.error(e.getMessage(), e);
+      logger.error("please provide valid input file", e);
     }
     return fileLines;
   }
 
   @Override
   public boolean containsPattern(String line) {
-    boolean match = false;
-    if(line.matches(this.regex))
-      match = true;
-    return match;
+    return line.matches(getRegex());
   }
 
   @Override
   public void writeToFile(List<String> lines) throws IOException {
-    BufferedWriter writer = new BufferedWriter(new FileWriter(this.outFile));
+    BufferedWriter writer = new BufferedWriter(new FileWriter(getOutFile()));
 
     for(String matchedLine: lines){
       writer.write(matchedLine + System.lineSeparator());
@@ -140,11 +137,11 @@ public class JavaGrepImp implements JavaGrep {
     javaGrepImp.setRegex(args[0]);
     javaGrepImp.setRootPath(args[1]);
     javaGrepImp.setOutFile(args[2]);
-    //System.out.println(javaGrepImp.getOutFile());
+
     try {
       javaGrepImp.process();
     } catch (Exception ex){
-      javaGrepImp.logger.error(ex.getMessage(), ex);
+      javaGrepImp.logger.error("Please provide valid arguments", ex);
     }
   }
 }
