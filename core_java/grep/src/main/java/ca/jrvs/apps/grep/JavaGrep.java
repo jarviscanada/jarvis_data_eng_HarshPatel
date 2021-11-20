@@ -17,34 +17,32 @@ public interface JavaGrep {
    * @param rootDir
    * @return
    */
-
-  List<File> listfile(String rootDir);
+  List<File> listFiles(String rootDir);
 
   /**
    * Read a file and return all the lines
    *
-   * Explain FileReader, BufferReader, and  character Encoding
+   * Explain FileReader, BufferedReader, and character encoding
    *
    * @param inputFile file to be read
    * @return lines
-   * @throws IllegalArgumentException if a given input file is not a file
+   * @throws IllegalArgumentException if a given inputFile is not a file
    */
-  List<String> readLines(File inputFile);
+  List<String> readlines(File inputFile) throws IllegalArgumentException;
 
   /**
-   * check if a line contains the regex pattern (passed by user)
+   * check if a line contians the regex patter (passed by user)
    * @param line input string
-   * @return true if there is match
+   * @return true if there is a match
    */
-
   boolean containsPattern(String line);
 
   /**
-   * Write a line to a file
+   * Write lines to a file
    *
-   * Explore: FileOutputStream, OutputStreamWriter, and BufferWriter
+   * Explore: FileOutputStream, OutputStreamWriter, and BufferedWriter
    *
-   * @param  lines matched lines
+   * @param lines matched lines
    * @throws IOException if write failed
    */
   void writeToFile(List<String> lines) throws IOException;
