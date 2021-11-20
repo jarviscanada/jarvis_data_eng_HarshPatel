@@ -17,7 +17,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HarshPatel
 
 **Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/linux_sql)]: Implemented a Cluster Monitoring Agent on a remote CentOS machine. Executed a bash script to collect the hardware specifications of each node in a cluster and monitor resource usages every minute with the help of Crontab. The data is collected and stored in a PostgreSQL server that runs inside a docker container.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/core_java)]: Not Started
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/core_java)]:
+- Grep App: Implemented a JavaGrep interface to perform functions the same as the grep command in Linux. The program was written with the help of IntelliJ and searches patterns recursively in a given directory that stores the matched lines to an output file. Stream and lambda expressions were used for the efficient search through the directories and files. slf4j was used to log messages. The Java grep app was packaged using maven and dockerized so that users can easily consume it.
+- JDBC App:
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/python_data_analytics)]: Not Started
 
