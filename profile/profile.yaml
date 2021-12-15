@@ -1,0 +1,124 @@
+# Preferred name (Characters only)
+name: "Harsh Patel"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: A passionate learner, detail-oriented, responsible, and committed engineer, graduated with a Masters in Computer Engineering degree from Concordia University. Having experience and understanding of agile scrum methodology, willing to work beyond the comfort zone to achieve milestones. In addition, with the knowledge of RDBMS, SQL, Data modelling, and Java. I have developed various applications following Software Development Life Cycle (SDLC) and enhanced analytical, strategic planning, and communication skills as a Software Engineer at Jarvis. With a keen interest in transforming business needs into requirements, I aim to apply the skills in a dynamic business environment to find innovative solutions for complex problems.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - C/C++
+    - Docker
+    - PSQL
+    - Google Cloud Platform
+    - HTML/CSS
+  # At least 5 skills
+  familiar:
+    - Hadoop
+    - Maven
+    - IntelliJ
+    - Jupiter Notebook
+    - Shopify
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Linux Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implemented a Cluster Monitoring Agent on a remote CentOS machine. Executed a bash script to collect the hardware specifications of each node in a cluster and monitor resource usages every minute with the help of Crontab. The data is collected and stored in a PostgreSQL server that runs inside a docker container.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "JDBC App:  The JDBC application allows data retrieval from a retail database for customers and orders using Java from RDBMS through JDBC. The application implements the CRUD (Create Read Update Delete) operations using Data Transfer Objects and Data Access Objects. The PostgreSQL instance was provisioned using the docker container, and the dependencies were managed through Maven."
+      - "Grep App:  Implemented a JavaGrep interface to perform functions the same as the grep command in Linux. The program was written with the help of IntelliJ and searched patterns recursively in a given directory that stores the matched lines to an output file. Stream and lambda expressions were used for the efficient search through the directories and files. slf4j was used for logging messages. The Java grep app was packaged using Maven and dockerized to consume it easily.."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "School Management System (MTU-Space)"
+    #URL is optional
+    git_url: "https://github.com/harshpatel77/MTUSpace.git"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: MTU-Space is a python-based website build using Django framework. Website that manages the student system. The admin user will be able to add student database to the website. Users must have MTU_ID and Password to access the service and edit or update the database.
+  - name: "Book World (E-Bookstore)"
+    git_url:
+    description: Book World is a java-based website which allow the user to search and purchase books based on their category of choice. Website that manages the bookstore, update the database based on purchase.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "Oct 2021 - Present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed, analyzed, and modified programming systems, including encoding, unit testing, and debugging. Worked with a diverse array of large data sets and large-scale data platforms. Followed agile methodologies and git-flow to develop java applications that run in Docker containers. Contributed to code-review sessions and ensured that code quality aligns with business and project requirements."
+  - title: "Software Quality Assurance Engineer"
+    company: "E-Vector Networking Inc"
+    duration: "Jun 2020 - Nov 2020"
+    description: "
+    - Involved in the weekly status report update with the manager and in the weekly Bug's status meetings along with QA Team and development team across the border.
+    - Perform system, unit, acceptance, regression, load and functional/performance testing using automated testing.
+    - Created automation test scripts using selenium web-driver and JavaScript.
+    - Used Selenium web-driver to run test scripts on different platforms and against different browsers in parallel.
+    - Validate, verify, communicate and resolve software issues through careful, thoroughly documented testing. "
+
+#List of education
+education:
+  - school_name: "Concordia University"
+    duration: "Aug 2019 - May 2021"
+    degree: "Master in Electrical & Computer Engineering"
+    department: "Electrical and Computer Engineering"
+    # optional
+    awards_achievements:
+  - school_name: "Gujarat Technological University"
+    duration: "Sep 2015 - May 2019"
+    degree: "Bachelor of Engineering"
+    department: "Electronics & Communication"
+    awards_achievements:
+
+#Optional section
+others:
+  #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Fortinet Network Security Expert Level 1: Certified Associate"
+      - "Fortinet Network Security Expert Level 2: Certified Associate"
+      - "AWS Concept (Udemy)"
+      - "Software Engineering Virtual Experience (JPMorgan Chase & Co.)"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Active member of Institute of Electrical and Electronics Engineering (IEEE) society in GCET, Anand"
+      - "Active member of Indian Society for Technical Education (ISTE) in GCET, Anand"
+      - "Basketball Player"

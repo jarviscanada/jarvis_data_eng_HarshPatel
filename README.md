@@ -60,3 +60,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 - Active member of Institute of Electrical and Electronics Engineering (IEEE) society in GCET, Anand
 - Active member of Indian Society for Technical Education (ISTE) in GCET, Anand
 - Basketball Player
+
