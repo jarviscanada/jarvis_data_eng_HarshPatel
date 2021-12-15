@@ -1,12 +1,12 @@
 # Harsh Patel . Jarvis Consulting
 
-A passionate learner, detail-oriented, responsible, and committed engineer graduated with a Masters in Electrical & Computer Engineering degree from Concordia University. Having experience and understanding of agile scrum methodology, willing to work beyond the comfort zone to achieve milestones. In addition, with the knowledge of RDBMS, SQL, Data modeling, and Java, developed various applications following Software Development Life Cycle (SDLC) and enhanced analytical, strategic planning, and communication skills as a Data Engineer at Jarvis. With a keen interest to transform business needs into requirements, I aim to apply the skills in a dynamic business environment to find innovative solutions for complex problems.
+A passionate learner, detail-oriented, responsible, and committed engineer, graduated with a Masters in Computer Engineering degree from Concordia University. Having experience and understanding of agile scrum methodology, willing to work beyond the comfort zone to achieve milestones. In addition, with the knowledge of RDBMS, SQL, Data modelling, and Java. I have developed various applications following Software Development Life Cycle (SDLC) and enhanced analytical, strategic planning, and communication skills as a Software Engineer at Jarvis. With a keen interest in transforming business needs into requirements, I aim to apply the skills in a dynamic business environment to find innovative solutions for complex problems.
 
 ## Skills
 
 **Proficient:** Java, Python, RDBMS/SQL, Linux/Bash scripts, Agile/Scrum, Git
 
-**Competent:** C/C++, JAVA, HTML/CSS, Docker, PSQL, Google Cloud Platform
+**Competent:** C/C++, Docker, PSQL, Google Cloud Platform, HTML/CSS
 
 **Familiar:** Hadoop, Maven, IntelliJ
 
@@ -15,20 +15,20 @@ A passionate learner, detail-oriented, responsible, and committed engineer gradu
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git)
 
 
-**Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/linux_sql)]: Implemented a Cluster Monitoring Agent on a remote CentOS machine. Executed a bash script to collect the hardware specifications of each node in a cluster and monitor resource usages every minute with the help of Crontab. The data is collected and stored in a PostgreSQL server that runs inside a docker container.
+**Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/linux_sql)]: Implemented a Cluster Monitoring Agent on a remote CentOS machine. Executed bash scripts to collect the hardware specifications of each node in a cluster and monitor resource usages every minute with the help of Crontab. The data is collected and stored in a PostgreSQL server that runs inside a docker container.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/core_java)]:
-- Grep App: Implemented a JavaGrep interface to perform functions the same as the grep command in Linux. The program was written with the help of IntelliJ and searches patterns recursively in a given directory that stores the matched lines to an output file. Stream and lambda expressions were used for the efficient search through the directories and files. slf4j was used to log messages. The Java grep app was packaged using maven and dockerized so that users can easily consume it.
-- JDBC App: The JDBC application allows the data retrieval from a retail database for customers and orders using Java from RDBMS through JDBC. The application implements the CRUD (Create Read Update Delete) operations using Data Transfer Objects and Data Access Objects. The psql instance was provisioned using the docker container and the dependencies were managed through Maven.
+- Grep App:  Implemented a JavaGrep interface to perform functions the same as the grep command in Linux. The program was written with the help of IntelliJ and searched patterns recursively in a given directory that stores the matched lines to an output file. Stream and lambda expressions were used for the efficient search through the directories and files. slf4j was used for logging messages. The Java grep app was packaged using Maven and dockerized to consume it easily.
+- JDBC App: The JDBC application allows data retrieval from a retail database for customers and orders using Java from RDBMS through JDBC. The application implements the CRUD (Create Read Update Delete) operations using Data Transfer Objects and Data Access Objects. The PostgreSQL instance was provisioned using the docker container, and the dependencies were managed through Maven.
 
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/python_data_analytics)]: Not Started
 
 
 ## Highlighted Projects
-**School Management System (MTU-Space)** [[GitHub](https://github.com/harshpatel77/MTUSpace.git)]: MTU-Space is a python-based website build using Django framework. Website that manages the student system. The admin user will be able to add student database to the website. Users must have MTU_ID and Password to access the service and edit or update the database.
+**School Management System (MTU-Space)** [[GitHub](https://github.com/harshpatel77/MTUSpace.git)]:  MTU-Space is a python-based website that is a student management system built using the Python/Django framework. The admin user can add the students to the website database. Users must have MTU_ID and Password to access the service and edit or update the database.
 
-**Book World (E-Bookstore)**:  Book World is a java-based website which allow the user to search and purchase books based on their category of choice. Website that manages the bookstore, update the database based on purchase. 
+**Book World (E-Bookstore)**:  Book World is a java-based website that allows users to search and purchase books based on their category of choice. The website that manages the bookstore updates the database based on purchases.
 
 
 ## Professional Experiences
