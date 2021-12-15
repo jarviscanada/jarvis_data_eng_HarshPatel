@@ -6,9 +6,9 @@ A passionate learner, detail-oriented, responsible, and committed engineer gradu
 
 **Proficient:** Java, Python, RDBMS/SQL, Linux/Bash scripts, Agile/Scrum, Git
 
-**Competent:** C/C++, HTML/CSS, Docker, PSQL, Google Cloud Platform
+**Competent:** C/C++, JAVA, HTML/CSS, Docker, PSQL, Google Cloud Platform
 
-**Familiar:** Hadoop, Maven, Jupyter Notebook, IntelliJ
+**Familiar:** Hadoop, Maven, IntelliJ
 
 ## Jarvis Projects
 
@@ -19,7 +19,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HarshPatel
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/core_java)]:
 - Grep App: Implemented a JavaGrep interface to perform functions the same as the grep command in Linux. The program was written with the help of IntelliJ and searches patterns recursively in a given directory that stores the matched lines to an output file. Stream and lambda expressions were used for the efficient search through the directories and files. slf4j was used to log messages. The Java grep app was packaged using maven and dockerized so that users can easily consume it.
-- JDBC App:
+- JDBC App: The JDBC application allows the data retrieval from a retail database for customers and orders using Java from RDBMS through JDBC. The application implements the CRUD (Create Read Update Delete) operations using Data Transfer Objects and Data Access Objects. The psql instance was provisioned using the docker container and the dependencies were managed through Maven.
+
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarshPatel.git/tree/master/python_data_analytics)]: Not Started
 
