@@ -18,9 +18,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 **Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Implemented a Cluster Monitoring Agent on a remote CentOS machine. Executed a bash script to collect the hardware specifications of each node in a cluster and monitor resource usages every minute with the help of Crontab. The data is collected and stored in a PostgreSQL server that runs inside a docker container.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
-      
+
   - JDBC App:  The JDBC application allows data retrieval from a retail database for customers and orders using Java from RDBMS through JDBC. The application implements the CRUD (Create Read Update Delete) operations using Data Transfer Objects and Data Access Objects. The PostgreSQL instance was provisioned using the docker container, and the dependencies were managed through Maven.
   - Grep App:  Implemented a JavaGrep interface to perform functions the same as the grep command in Linux. The program was written with the help of IntelliJ and searched patterns recursively in a given directory that stores the matched lines to an output file. Stream and lambda expressions were used for the efficient search through the directories and files. slf4j was used for logging messages. The Java grep app was packaged using Maven and dockerized to consume it easily..
+  - Twitter App: Developed a command-line interface that allows users to send, get, and delete tweets from Twitter with a developer account. It uses MVC(Model-View-Controller) design pattern to manage the code structure. The Rest APIs interact with Twitter, Maven, and Spring as dependency managers, JUnit and Mockito for testing, and Docker for the deployment.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
 
