@@ -4,11 +4,11 @@ A passionate learner, detail-oriented, responsible, and committed engineer, grad
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Terraform, Selenium
 
-**Competent:** C/C++, Docker, PSQL, Google Cloud Platform, HTML/CSS
+**Competent:** C/C++, Docker, PSQL, AWS Cloud Platform, Jira, Jenkis, Confluence, HTML/CSS
 
-**Familiar:** Hadoop, Maven, IntelliJ, Jupiter Notebook, Shopify
+**Familiar:** Hadoop, Maven, IntelliJ, Jupiter Notebook, Shopify, VS Code
 
 ## Jarvis Projects
 
@@ -23,16 +23,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
   - Grep App:  Implemented a JavaGrep interface to perform functions the same as the grep command in Linux. The program was written with the help of IntelliJ and searched patterns recursively in a given directory that stores the matched lines to an output file. Stream and lambda expressions were used for the efficient search through the directories and files. slf4j was used for logging messages. The Java grep app was packaged using Maven and dockerized to consume it easily..
   - Twitter App: Developed a command-line interface that allows users to send, get, and delete tweets from Twitter with a developer account. It uses MVC(Model-View-Controller) design pattern to manage the code structure. The Rest APIs interact with Twitter, Maven, and Spring as dependency managers, JUnit and Mockito for testing, and Docker for the deployment.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
-
 
 ## Highlighted Projects
 **School Management System (MTU-Space)** [[GitHub](https://github.com/harshpatel77/MTUSpace.git)]: MTU-Space is a python-based website build using Django framework. Website that manages the student system. The admin user will be able to add student database to the website. Users must have MTU_ID and Password to access the service and edit or update the database.
@@ -41,6 +31,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 
 ## Professional Experiences
+**Software Developer, National Bank of Canada (Feb 2022 - Jun 2022)**: Collaborated in team based, Agile environment to accomplish objectives by deadlines. Worked with colleagues and senior developers to design and implements scalable solutions. Play a pivotal role as a part of an agile scrum team accountable, developing new application and working on AWS cloud using Terraform. Collaborated with team member to analyze potential system solution based on evolving client requirements. Created framework for testing the application for NBC project.
 
 **Software Developer, Jarvis (Oct 2021 - Present)**: Developed, analyzed, and modified programming systems, including encoding, unit testing, and debugging. Worked with a diverse array of large data sets and large-scale data platforms. Followed agile methodologies and git-flow to develop java applications that run in Docker containers. Contributed to code-review sessions and ensured that code quality aligns with business and project requirements.
 
