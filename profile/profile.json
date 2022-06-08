@@ -41,31 +41,6 @@
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Harsh Patel",
@@ -90,6 +65,12 @@
   ],
   "professional_experience": [
     {
+      "company": "National Bank of Canada",
+      "description": "Collaborated in team based, Agile environment to accomplish objectives by deadlines. Worked with colleagues and senior developers to design and implements scalable solutions. Play a pivotal role as a part of an agile scrum team accountable, developing new application and working on AWS cloud using Terraform. Collaborated with team member to analyze potential system solution based on evolving client requirements. Created framework for testing the application for NBC project.",
+      "duration": "Feb 2021 - Jun 2021",
+      "title": "Software Developer"
+    },
+    {
       "company": "Jarvis",
       "description": "Developed, analyzed, and modified programming systems, including encoding, unit testing, and debugging. Worked with a diverse array of large data sets and large-scale data platforms. Followed agile methodologies and git-flow to develop java applications that run in Docker containers. Contributed to code-review sessions and ensured that code quality aligns with business and project requirements.",
       "duration": "Oct 2021 - Present",
@@ -107,13 +88,16 @@
       "C/C++",
       "Docker",
       "PSQL",
-      "Google Cloud Platform",
-      "HTML/CSS"
+      "AWS Cloud Platform",
+      "Jenkins",
+      "Jira",
+      "Confluence"
     ],
     "familiar": [
       "Hadoop",
       "Maven",
       "IntelliJ",
+      "VS Code",
       "Jupiter Notebook",
       "Shopify"
     ],
@@ -122,7 +106,9 @@
       "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
-      "Git"
+      "Git",
+      "Terraform",
+      "Selenium"
     ]
   },
   "summary": "A passionate learner, detail-oriented, responsible, and committed engineer, graduated with a Masters in Computer Engineering degree from Concordia University. Having experience and understanding of agile scrum methodology, willing to work beyond the comfort zone to achieve milestones. In addition, with the knowledge of RDBMS, SQL, Data modelling, and Java. I have developed various applications following Software Development Life Cycle (SDLC) and enhanced analytical, strategic planning, and communication skills as a Software Engineer at Jarvis. With a keen interest in transforming business needs into requirements, I aim to apply the skills in a dynamic business environment to find innovative solutions for complex problems."
