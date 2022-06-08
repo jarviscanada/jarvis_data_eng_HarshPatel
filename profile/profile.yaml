@@ -17,18 +17,23 @@ skills:
     - RDBMS/SQL
     - Agile/Scrum
     - Git
+    - Terraform
+    - Selenium
   # At least 5 skills
   competent:
     - C/C++
     - Docker
     - PSQL
-    - Google Cloud Platform
-    - HTML/CSS
+    - AWS Cloud Platform
+    - Jenkins
+    - Jira
+    - Confluence
   # At least 5 skills
   familiar:
     - Hadoop
     - Maven
     - IntelliJ
+    - VS Code
     - Jupiter Notebook
     - Shopify
 
@@ -44,21 +49,6 @@ jarvis_projects:
     description:
       - "JDBC App:  The JDBC application allows data retrieval from a retail database for customers and orders using Java from RDBMS through JDBC. The application implements the CRUD (Create Read Update Delete) operations using Data Transfer Objects and Data Access Objects. The PostgreSQL instance was provisioned using the docker container, and the dependencies were managed through Maven."
       - "Grep App:  Implemented a JavaGrep interface to perform functions the same as the grep command in Linux. The program was written with the help of IntelliJ and searched patterns recursively in a given directory that stores the matched lines to an output file. Stream and lambda expressions were used for the efficient search through the directories and files. slf4j was used for logging messages. The Java grep app was packaged using Maven and dockerized to consume it easily.."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -77,6 +67,11 @@ highlighted_projects:
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
+  - title: "Software Developer"
+    company: "National Bank of Canada"
+    duration: "Feb 2021 - Jun 2021"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Collaborated in team based, Agile environment to accomplish objectives by deadlines. Worked with colleagues and senior developers to design and implements scalable solutions. Play a pivotal role as a part of an agile scrum team accountable, developing new application and working on AWS cloud using Terraform. Collaborated with team member to analyze potential system solution based on evolving client requirements. Created framework for testing the application for NBC project."
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
