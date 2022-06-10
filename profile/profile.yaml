@@ -18,10 +18,8 @@ skills:
     - Agile/Scrum
     - Git
     - Terraform
-    - Selenium
   # At least 5 skills
   competent:
-    - C/C++
     - Docker
     - PSQL
     - AWS Cloud Platform
@@ -69,7 +67,7 @@ highlighted_projects:
 professional_experience:
   - title: "Software Developer"
     company: "National Bank of Canada"
-    duration: "Feb 2021 - Jun 2021"
+    duration: "Jan 2022 - Jun 2022"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Collaborated in team based, Agile environment to accomplish objectives by deadlines. Worked with colleagues and senior developers to design and implements scalable solutions. Play a pivotal role as a part of an agile scrum team accountable, developing new application and working on AWS cloud using Terraform. Collaborated with team member to analyze potential system solution based on evolving client requirements. Created framework for testing the application for NBC project."
   #Write your Jarvis role as a professional experience rather than training.
@@ -116,4 +114,4 @@ others:
     bullets:
       - "Active member of Institute of Electrical and Electronics Engineering (IEEE) society in GCET, Anand"
       - "Active member of Indian Society for Technical Education (ISTE) in GCET, Anand"
-      - "Basketball Player"
+      - "Cricket Player"

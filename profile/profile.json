@@ -58,7 +58,7 @@
       "bullets": [
         "Active member of Institute of Electrical and Electronics Engineering (IEEE) society in GCET, Anand",
         "Active member of Indian Society for Technical Education (ISTE) in GCET, Anand",
-        "Basketball Player"
+        "Cricket Player"
       ],
       "title": "Activities/Hobbies"
     }
@@ -67,7 +67,7 @@
     {
       "company": "National Bank of Canada",
       "description": "Collaborated in team based, Agile environment to accomplish objectives by deadlines. Worked with colleagues and senior developers to design and implements scalable solutions. Play a pivotal role as a part of an agile scrum team accountable, developing new application and working on AWS cloud using Terraform. Collaborated with team member to analyze potential system solution based on evolving client requirements. Created framework for testing the application for NBC project.",
-      "duration": "Feb 2021 - Jun 2021",
+      "duration": "Jan 2022 - Jun 2022",
       "title": "Software Developer"
     },
     {
@@ -85,7 +85,6 @@
   ],
   "skills": {
     "competent": [
-      "C/C++",
       "Docker",
       "PSQL",
       "AWS Cloud Platform",
@@ -107,8 +106,7 @@
       "RDBMS/SQL",
       "Agile/Scrum",
       "Git",
-      "Terraform",
-      "Selenium"
+      "Terraform"
     ]
   },
   "summary": "A passionate learner, detail-oriented, responsible, and committed engineer, graduated with a Masters in Computer Engineering degree from Concordia University. Having experience and understanding of agile scrum methodology, willing to work beyond the comfort zone to achieve milestones. In addition, with the knowledge of RDBMS, SQL, Data modelling, and Java. I have developed various applications following Software Development Life Cycle (SDLC) and enhanced analytical, strategic planning, and communication skills as a Software Engineer at Jarvis. With a keen interest in transforming business needs into requirements, I aim to apply the skills in a dynamic business environment to find innovative solutions for complex problems."
