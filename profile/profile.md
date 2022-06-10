@@ -4,9 +4,9 @@ A passionate learner, detail-oriented, responsible, and committed engineer, grad
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Terraform, Selenium
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Terraform
 
-**Competent:** C/C++, Docker, PSQL, AWS Cloud Platform, Jenkins, Jira, Confluence
+**Competent:** Docker, PSQL, AWS Cloud Platform, Jenkins, Jira, Confluence
 
 **Familiar:** Hadoop, Maven, IntelliJ, VS Code, Jupiter Notebook, Shopify
 
@@ -31,7 +31,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 ## Professional Experiences
 
-**Software Developer, National Bank of Canada (Feb 2021 - Jun 2021)**: Collaborated in team based, Agile environment to accomplish objectives by deadlines. Worked with colleagues and senior developers to design and implements scalable solutions. Play a pivotal role as a part of an agile scrum team accountable, developing new application and working on AWS cloud using Terraform. Collaborated with team member to analyze potential system solution based on evolving client requirements. Created framework for testing the application for NBC project.
+**Software Developer, National Bank of Canada (Jan 2022 - Jun 2022)**: Collaborated in team based, Agile environment to accomplish objectives by deadlines. Worked with colleagues and senior developers to design and implements scalable solutions. Play a pivotal role as a part of an agile scrum team accountable, developing new application and working on AWS cloud using Terraform. Collaborated with team member to analyze potential system solution based on evolving client requirements. Created framework for testing the application for NBC project.
 
 **Software Developer, Jarvis (Oct 2021 - Present)**: Developed, analyzed, and modified programming systems, including encoding, unit testing, and debugging. Worked with a diverse array of large data sets and large-scale data platforms. Followed agile methodologies and git-flow to develop java applications that run in Docker containers. Contributed to code-review sessions and ensured that code quality aligns with business and project requirements.
 
@@ -51,4 +51,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 - Software Engineering Virtual Experience (JPMorgan Chase & Co.)
 - Active member of Institute of Electrical and Electronics Engineering (IEEE) society in GCET, Anand
 - Active member of Indian Society for Technical Education (ISTE) in GCET, Anand
-- Basketball Player
+- Cricket Player
